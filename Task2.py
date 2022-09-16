@@ -6,6 +6,9 @@
 import math
 
 def multiply_numbers_in_pairs(arr):
+    '''
+    Умножает елементы списка по парно (первый элемент с последним), в списках с нечетным количеством элементов, последний умножается сам на себя
+    '''
     array_length = len(arr)
 
     number_of_iterations = array_length
